@@ -36,4 +36,4 @@ Exempel från Newtons vagga används för att visa rörelse och energiöverföri
 - CSS
 - JavaScript
 
-![Min manuell test](Skärmbild 2026-05-11 120804.png)
+![Min manuell test]("Skärmbild 2026-05-11 120804.png")
