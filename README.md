@@ -35,3 +35,5 @@ Exempel från Newtons vagga används för att visa rörelse och energiöverföri
 - HTML
 - CSS
 - JavaScript
+
+![Min manuell test](Skärmbild 2026-05-11 120804.png)
