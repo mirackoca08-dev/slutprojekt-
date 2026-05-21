@@ -1,3 +1,4 @@
+<<<<<<< HEAD:script.js
 // Funktion som gör användarens text säkrare
 // Skyddar mot enkla XSS-attacker genom att ta bort < och > 
 function rattaQuiz() {
@@ -28,6 +29,8 @@ function rattaQuiz() {
         "Du fick " + poang + " av 3 rätt!";
 }  
 
+=======
+>>>>>>> d5397383ebd7778d37c89c6f6e40caf264ee27f8:Javascript/script.js
 function sanitize(text) {
     return text
         .toLowerCase() // Gör all text till små bokstäver 
