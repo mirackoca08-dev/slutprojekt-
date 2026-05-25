@@ -34,37 +34,3 @@ function sanitize(text) {
         .trim(); 
 }
 
-function rattaQuiz() {
-
-    let q1 = sanitize(document.getElementById("q1").value);
-    console.log(q1);
-    let q2 = sanitize(document.getElementById("q2").value); 
-    console.log(q2);
-    let q3 = sanitize(document.getElementById("q3").value);
-    console.log(q3); 
-
-    let poang = 0;
-
-    // Fråga 1
-    if (q1.includes("kraft")) {
-        poang++;
-    }
-
-    // Fråga 2
-    if (q2.includes("första") || q2.includes("tröghet")) {
-        poang++;
-    }
-
-    // Fråga 3
-    if (
-        q3.includes("motsatt") ||
-        q3.includes("lika stor") ||
-        q3.includes("reaktion")
-    ) {
-        poang++;
-    }
-
-    document.getElementById("resultat").textContent =
-        "Du fick " + poang + " av 3 rätt!";
-}
- 
